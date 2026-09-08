@@ -12,7 +12,7 @@ Simple Library Information System
 ## Installation
 1. Clone repository ini
 
-git clone https://github.com/username-kamu/library-system.git
+git clone https://github.com/ramdiniokt-stack/library-system.git
 
 2. Masuk ke folder project
 
