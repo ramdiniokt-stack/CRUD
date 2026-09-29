@@ -5,7 +5,11 @@
     <ul>
         @foreach($books as $book)
             <li>
-                {{ $book['judul'] }} — {{ $book['penulis'] }} ({{ $book['tahun'] }})
+                ID: {{ $book->id }} —
+                {{ $book->title }} —
+                {{ $book->author }}
+                ({{ $book->year }}) —
+                Stok: {{ $book->stock }}
             </li>
         @endforeach
     </ul>
